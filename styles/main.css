@@ -1,0 +1,11 @@
+:root {
+  --menú: #4a4a4a;
+  --fondo: #3cdbc0;
+  --texto: #ffffff;
+  font-family: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
