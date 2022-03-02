@@ -9,3 +9,45 @@
   margin: 0;
   padding: 0;
 }
+
+.cabecera {
+  background-color: var(--texto);
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  height: 60px;
+  z-index: 999;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+  gap: 20pxpx;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  color: var(--menú);
+  font-size: 16px;
+
+  /*.logo {
+    width: 155px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }*/
+}
+
+.cuerpo {
+  background-color: var(--fondo);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--texto);
+  font-size: 30px;
+}
