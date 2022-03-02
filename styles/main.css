@@ -28,6 +28,7 @@
   width: 100%;
   gap: 20pxpx;
   list-style: none;
+  text-decoration: none;
   justify-content: center;
   gap: 20px;
   color: var(--menú);
@@ -50,4 +51,15 @@
   align-items: center;
   color: var(--texto);
   font-size: 30px;
+}
+
+@media all and (min-width: 780px) {
+  .menu {
+    align-items: flex-end;
+    font-size: 16px;
+  }
+
+  .cuerpo {
+    font-size: 40px;
+  }
 }
