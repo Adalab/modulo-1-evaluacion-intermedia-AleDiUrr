@@ -10,7 +10,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  color: #4a4a4a;
+  color: var(--menú);
 }
 
 .header {
@@ -39,20 +39,22 @@
 .header__nav--list {
   padding-right: 10px;
   padding-left: 10px;
-  page-break-inside: ;
 }
 
-.cuerpo {
+.main {
   background-color: var(--fondo);
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: var(--texto);
-  font-size: 30px;
 }
 
+.main__title {
+  color: var(--texto);
+  width: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
 @media all and (min-width: 780px) {
   .menu {
     align-items: flex-end;
